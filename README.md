@@ -85,6 +85,9 @@ A integração opcional com Ollama existe em `/advisory`, desativada por padrão
 
 ### Publicação
 
+**Estado verificado em26/10/2026:** portal publicado pela branch `gh-pages`, após build/testes locais. O GitHub Actions não iniciou porque o GitHub reportou bloqueio de cobrança na conta. A configuração por branch publicou com sucesso, sem provisionar recursos pagos. [Registro de publicação](docs/deployment.md).
+
+
 `.github/workflows/pages.yml` verifica testes TypeScript e Python, gera o build e publica `dist/` pelo GitHub Actions. No repositório, Pages precisa estar configurado com **Source: GitHub Actions**. O workflow dispara em push para `main` ou manualmente. A URL do portal depende do sucesso desse workflow; ter arquivos no GitHub não confirma publicação.
 
 O backend não é publicado pelo GitHub Pages. `infra/aws/` é uma fundação Terraform opcional e parcial, não aplicada. Ela não é usada pelo workflow e não cria recursos durante o build. Nenhuma cobrança de nuvem foi autorizada ou realizada por este projeto.
@@ -155,6 +158,9 @@ Build with `docker build -f backend/Dockerfile -t safechat-reference .` and run 
 For an already installed local Ollama model, use host Python and the explicit environment described in [backend.md](docs/backend.md#optional-local-ollama-advisory). `.env.example` is documentation; environment files are not loaded automatically. The public portal does not call this endpoint or receive these variables. Model installation is not required for the public demonstration.
 
 ### Deployment and reproducibility
+
+**Verified on2026-10-26:** Pages is live from the `gh-pages` branch after local build/tests. GitHub Actions could not start because GitHub reported an account billing lock. The branch deployment succeeded; no paid infrastructure was provisioned. See the [deployment record](docs/deployment.md).
+
 
 GitHub Actions runs Python/TypeScript checks, builds `dist/` and deploys Pages on `main`. Enable **GitHub Actions** as the repository's Pages source. The public URL depends on successful deployment, not merely a pushed commit. The backend is not hosted by Pages. Optional Terraform is a partial, unapplied audit foundation; it is not run by CI and no paid infrastructure was created.
 

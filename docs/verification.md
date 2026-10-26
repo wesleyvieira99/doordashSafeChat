@@ -13,7 +13,8 @@ Review date: **2026-10-26**. These checks establish the behavior and provenance 
 | Python/API/MCP/advisory | `backend/.venv/bin/python -m unittest backend.test_engine backend.test_api backend.test_advisory -v`: **27 tests passed**, including real MCP subprocess exchange and mocked Ollama fault cases | Passed |
 | Optional advisory adapter | Code reviewed: loopback-only opt-in configuration, shared deadline, bounded retries/response, strict schema, no action authority; included in the source catalog | Passed; no actual model call tested |
 | Live browser | Local browser: all 13 sections in PT/EN at390px and all13 inPT at1440px, no document overflow; eight moderation scenarios, fallback, capacity overload, policy/tool success and errors, code search/copy, evaluation, calculator, language preservation, skip link and Escape checked | Passed |
-| Published deployment | GitHub Pages URL, public source links, route refresh, downloaded assets and public catalog | Pending root review |
+| Published deployment | https://wesleyvieira99.github.io/doordashSafeChat/ — Pages branch build1316563221 succeeded; mobile PT/EN demo and deep-route refresh verified, public assets/catalog checked | Passed via gh-pages branch |
+| GitHub Actions | Run40372386146 did not start: account locked due to billing issue; no CI test result is claimed | Blocked externally; local checks passed |
 
 ## Interpretation boundaries / Limites
 
@@ -34,4 +35,4 @@ See [source registry](sources.md) for all 28 references, absent publication date
 
 ## Final acceptance to record / Registrar na entrega
 
-The published deployment row is completed after the actual Pages URL is checked. Reduced-motion behavior was reviewed in CSS; no system preference or benchmark score is claimed. Final code changes require catalog regeneration and a production build; a checked-in earlier artifact does not verify later edits.
+Public deployment was checked on2026-10-26. Source commit f5e884a and static branch commit cf2e26e identify the tested implementation and published artifact. Reduced-motion behavior was reviewed in CSS; no system preference or benchmark score is claimed. Final code changes require catalog regeneration and a production build; a checked-in earlier artifact does not verify later edits.
