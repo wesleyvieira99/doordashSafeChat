@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc" lang="pt">
+<title id="title">Sequência · políticas e ferramentas</title><desc id="desc">MCP de referência consulta políticas sintéticas com validação de ferramenta. Cliente local. Servidor MCP. Lista permitida. Políticas locais. Inicialização precede a consulta. MCP não autoriza ações. get_case_preview também lê somente casos sintéticos.</desc>
+<defs>
+<marker id="sync" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#d94135"/></marker>
+<marker id="async" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#4174a6"/></marker>
+<marker id="policy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#7560a9"/></marker>
+<marker id="human" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#b67d24"/></marker>
+</defs>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text x="44" y="43" text-anchor="start" fill="#637083" font-size="12" font-weight="700">TRUST, BY DESIGN</text>
+<text x="1156" y="43" text-anchor="end" fill="#637083" font-size="11" font-weight="650">LABORATÓRIO EXECUTÁVEL</text>
+<text x="44" y="89" text-anchor="start" fill="#18202c" font-size="29" font-weight="680">Sequência · políticas e ferramentas</text>
+<text x="44" y="119" text-anchor="start" fill="#637083" font-size="16" font-weight="500">MCP de referência consulta políticas sintéticas com validação de ferramenta.</text>
+<rect x="35" y="156" width="220" height="58" rx="13" fill="white" stroke="#dfe4ea"/>
+<text x="145" y="191" text-anchor="middle" fill="#18202c" font-size="16" font-weight="650">Cliente local</text>
+<line x1="145" y1="217" x2="145" y2="609" stroke="#ccd4de" stroke-dasharray="4 6"/>
+<rect x="338" y="156" width="220" height="58" rx="13" fill="white" stroke="#dfe4ea"/>
+<text x="448" y="191" text-anchor="middle" fill="#18202c" font-size="16" font-weight="650">Servidor MCP</text>
+<line x1="448" y1="217" x2="448" y2="609" stroke="#ccd4de" stroke-dasharray="4 6"/>
+<rect x="641" y="156" width="220" height="58" rx="13" fill="white" stroke="#dfe4ea"/>
+<text x="751" y="191" text-anchor="middle" fill="#18202c" font-size="16" font-weight="650">Lista permitida</text>
+<line x1="751" y1="217" x2="751" y2="609" stroke="#ccd4de" stroke-dasharray="4 6"/>
+<rect x="944" y="156" width="220" height="58" rx="13" fill="white" stroke="#dfe4ea"/>
+<text x="1054" y="191" text-anchor="middle" fill="#18202c" font-size="16" font-weight="650">Políticas locais</text>
+<line x1="1054" y1="217" x2="1054" y2="609" stroke="#ccd4de" stroke-dasharray="4 6"/>
+<polyline points="145,250.0 448,250.0" fill="none" stroke="#d94135" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#sync)"/>
+<rect x="108.5" y="222.0" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="296.5" y="238.0" text-anchor="middle" fill="#d94135" font-size="14.5" font-weight="550">1 · tools/list</text>
+<polyline points="448,306.6666666666667 145,306.6666666666667" fill="none" stroke="#d94135" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#sync)"/>
+<rect x="108.5" y="278.6666666666667" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="296.5" y="294.6666666666667" text-anchor="middle" fill="#d94135" font-size="14.5" font-weight="550">2 · Nomes e schemas somente leitura</text>
+<polyline points="145,363.3333333333333 448,363.3333333333333" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy)"/>
+<rect x="108.5" y="335.3333333333333" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="296.5" y="351.3333333333333" text-anchor="middle" fill="#7560a9" font-size="14.5" font-weight="550">3 · tools/call: search_policies</text>
+<polyline points="448,420.0 751,420.0" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy)"/>
+<rect x="411.5" y="392.0" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="599.5" y="408.0" text-anchor="middle" fill="#7560a9" font-size="14.5" font-weight="550">4 · Validar nome e argumentos</text>
+<polyline points="448,476.66666666666663 1054,476.66666666666663" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy)"/>
+<rect x="563.0" y="448.66666666666663" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="751.0" y="464.66666666666663" text-anchor="middle" fill="#7560a9" font-size="14.5" font-weight="550">5 · Busca lexical por tema</text>
+<polyline points="1054,533.3333333333333 448,533.3333333333333" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy)"/>
+<rect x="563.0" y="505.33333333333326" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="751.0" y="521.3333333333333" text-anchor="middle" fill="#7560a9" font-size="14.5" font-weight="550">6 · Fonte, versão e trecho</text>
+<polyline points="448,590.0 145,590.0" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy)"/>
+<rect x="108.5" y="562.0" width="376" height="23" rx="5" fill="#f8fafc"/>
+<text x="296.5" y="578.0" text-anchor="middle" fill="#7560a9" font-size="14.5" font-weight="550">7 · Evidência ou ausência de resultado</text>
+<polyline points="44,655 72,655" fill="none" stroke="#d94135" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="83" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Síncrono</text>
+<polyline points="330,655 358,655" fill="none" stroke="#4174a6" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<text x="369" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Assíncrono / registro</text>
+<polyline points="616,655 644,655" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="655" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Política / controle</text>
+<polyline points="902,655 930,655" fill="none" stroke="#b67d24" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="941" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Revisão humana</text>
+<text x="44" y="706" text-anchor="start" fill="#637083" font-size="14" font-weight="500">Inicialização precede a consulta. MCP não autoriza ações. get_case_preview também lê somente casos sintéticos.</text>
+</g>
+</svg>
