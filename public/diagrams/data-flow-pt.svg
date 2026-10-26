@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc" lang="pt">
+<title id="title">Fluxo de dados e auditoria</title><desc id="desc">A decisão local produz um registro legível; persistência assíncrona é uma evolução proposta. Mensagem sintética. Validação e decisão. Resultado na interface. Avaliação offline. Auditoria minimizada. Outbox + fila. Em produção, a entrega não espera o consumidor de auditoria. Outbox durável e deduplicação exigem implementação.</desc>
+<defs>
+<marker id="sync" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#d94135"/></marker>
+<marker id="async" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#4174a6"/></marker>
+<marker id="policy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#7560a9"/></marker>
+<marker id="human" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#b67d24"/></marker>
+</defs>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text x="44" y="43" text-anchor="start" fill="#637083" font-size="12" font-weight="700">TRUST, BY DESIGN</text>
+<text x="1156" y="43" text-anchor="end" fill="#637083" font-size="11" font-weight="650">ARQUITETURA PROPOSTA</text>
+<text x="44" y="89" text-anchor="start" fill="#18202c" font-size="29" font-weight="680">Fluxo de dados e auditoria</text>
+<text x="44" y="119" text-anchor="start" fill="#637083" font-size="16" font-weight="500">A decisão local produz um registro legível; persistência assíncrona é uma evolução proposta.</text>
+<rect x="27" y="152" width="1146" height="187" rx="20" fill="none" stroke="#d9e0e8" stroke-dasharray="5 6"/>
+<text x="44" y="174" text-anchor="start" fill="#637083" font-size="11" font-weight="650">CAMINHO SÍNCRONO · DECISÃO</text>
+<rect x="27" y="387" width="1146" height="187" rx="20" fill="none" stroke="#d9e0e8" stroke-dasharray="5 6"/>
+<text x="44" y="409" text-anchor="start" fill="#637083" font-size="11" font-weight="650">EXPLICAÇÃO E AUDITORIA</text>
+<rect x="44" y="210" width="300" height="108" rx="17" fill="white" stroke="#dfe4ea"/><rect x="62" y="231" width="4" height="25" rx="2" fill="#d94135"/><text x="78" y="252" text-anchor="start" fill="#18202c" font-size="18" font-weight="650">Mensagem sintética</text><text x="66" y="287" text-anchor="start" fill="#637083" font-size="14.5" font-weight="500">Entrada não confiável</text>
+<rect x="450" y="210" width="300" height="108" rx="17" fill="white" stroke="#dfe4ea"/><rect x="468" y="231" width="4" height="25" rx="2" fill="#d94135"/><text x="484" y="252" text-anchor="start" fill="#18202c" font-size="18" font-weight="650">Validação e decisão</text><text x="472" y="287" text-anchor="start" fill="#637083" font-size="14.5" font-weight="500">Caminho síncrono do laboratório</text>
+<rect x="856" y="210" width="300" height="108" rx="17" fill="white" stroke="#dfe4ea"/><rect x="874" y="231" width="4" height="25" rx="2" fill="#d94135"/><text x="890" y="252" text-anchor="start" fill="#18202c" font-size="18" font-weight="650">Resultado na interface</text><text x="878" y="287" text-anchor="start" fill="#637083" font-size="14.5" font-weight="500">Ação · motivo · política</text>
+<rect x="44" y="445" width="300" height="108" rx="17" fill="white" stroke="#dfe4ea"/><rect x="62" y="466" width="4" height="25" rx="2" fill="#b67d24"/><text x="78" y="487" text-anchor="start" fill="#18202c" font-size="18" font-weight="650">Avaliação offline</text><text x="66" y="522" text-anchor="start" fill="#637083" font-size="14.5" font-weight="500">Revisão e conjunto autorizado</text>
+<rect x="450" y="445" width="300" height="108" rx="17" fill="white" stroke="#dfe4ea"/><rect x="468" y="466" width="4" height="25" rx="2" fill="#4174a6"/><text x="484" y="487" text-anchor="start" fill="#18202c" font-size="18" font-weight="650">Auditoria minimizada</text><text x="472" y="522" text-anchor="start" fill="#637083" font-size="14.5" font-weight="500">Sem texto bruto por padrão</text>
+<rect x="856" y="445" width="300" height="108" rx="17" fill="white" stroke="#dfe4ea"/><rect x="874" y="466" width="4" height="25" rx="2" fill="#4174a6"/><text x="890" y="487" text-anchor="start" fill="#18202c" font-size="18" font-weight="650">Outbox + fila</text><text x="878" y="522" text-anchor="start" fill="#637083" font-size="14.5" font-weight="500">Proposta · fora da entrega</text>
+<polyline points="344,264 443,264" fill="none" stroke="#d94135" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#sync)"/>
+<polyline points="750,264 849,264" fill="none" stroke="#d94135" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#sync)"/>
+<polyline points="1006,318 1006,438" fill="none" stroke="#4174a6" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 6" marker-end="url(#async)"/>
+<polyline points="856,499 757,499" fill="none" stroke="#4174a6" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 6" marker-end="url(#async)"/>
+<polyline points="450,499 351,499" fill="none" stroke="#4174a6" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 6" marker-end="url(#async)"/>
+<polyline points="44,655 72,655" fill="none" stroke="#d94135" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="83" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Síncrono</text>
+<polyline points="330,655 358,655" fill="none" stroke="#4174a6" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<text x="369" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Assíncrono / registro</text>
+<polyline points="616,655 644,655" fill="none" stroke="#7560a9" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="655" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Política / controle</text>
+<polyline points="902,655 930,655" fill="none" stroke="#b67d24" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="941" y="660" text-anchor="start" fill="#637083" font-size="13" font-weight="500">Revisão humana</text>
+<text x="44" y="706" text-anchor="start" fill="#637083" font-size="14" font-weight="500">Em produção, a entrega não espera o consumidor de auditoria. Outbox durável e deduplicação exigem implementação.</text>
+</g>
+</svg>

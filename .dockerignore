@@ -1,0 +1,9 @@
+**
+!backend/
+!backend/**
+backend/.venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.env*
+backend/test_*.py
+backend/Dockerfile
