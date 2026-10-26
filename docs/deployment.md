@@ -3,10 +3,10 @@
 Verified on **2026-10-26**.
 
 - Public URL: https://wesleyvieira99.github.io/doordashSafeChat/
-- Source implementation: `f5e884aeb97a65c379ab3e81484b77a47209fc18` on `main`.
-- Published static artifact: `cf2e26e3f33cfeb1b56dcf7033439dfd057f8c05` on `gh-pages`.
+- Source implementation: `011de53` on `main`.
+- Published static artifact: `c65f577526c4ac41dbca69196abcd4a0ce7bba49` on `gh-pages`.
 - Pages configuration: deploy from `gh-pages` at `/`; `.nojekyll` prevents Jekyll processing.
-- Pages build `1316563221`: **built**, no error.
+- Latest Pages branch build created at `2026-10-26T18:24:06Z`: **built**, no error.
 - Public page and all 35 checked page/catalog/diagram/logo URLs returned HTTP 200.
 - Local checks: production TypeScript/Vite build, 15 TypeScript tests, 27 Python tests.
 
@@ -28,3 +28,9 @@ Do not switch the source before the account issue is resolved. Until then, `main
 ## Boundaries
 
 The public site is static. The local API, MCP transport and optional Ollama adapter are not hosted by Pages. Model calls, Docker image execution and paid infrastructure deployment were not performed. Email drafts were delivered separately for private review and were not sent.
+
+## Architecture explanation update / Atualização da explicação
+
+The PT/EN Architecture page now explains the proposed context → retrieval → LLM advice → decision workflow, framework responsibilities and evaluation criteria. This is explanatory content; no LangChain, LangGraph or generative RAG integration was added.
+
+Validation: production build and whitespace check passed. The new section was visually reviewed at 390 and 1440 px without document overflow; both disclosures expanded successfully. The public JavaScript bundle `index-BI4qp9Yj.js` matches the local build byte-for-byte and contains the expanded section. Existing regression results above apply to the unchanged execution logic. The email redesign is delivered privately outside the published repository.
