@@ -12,9 +12,9 @@ Review date: **2026-10-26**. These checks establish the behavior and provenance 
 | Production build | `npm run build`: source catalog, TypeScript and Vite production build passed after the final core/advisory guide changes | Passed |
 | Python/API/MCP/advisory | `backend/.venv/bin/python -m unittest backend.test_engine backend.test_api backend.test_advisory -v`: **27 tests passed**, including real MCP subprocess exchange and mocked Ollama fault cases | Passed |
 | Optional advisory adapter | Code reviewed: loopback-only opt-in configuration, shared deadline, bounded retries/response, strict schema, no action authority; included in the source catalog | Passed; no actual model call tested |
-| Live browser | Local browser: all 13 sections in PT/EN at390px and all13 inPT at1440px, no document overflow; eight moderation scenarios, fallback, capacity overload, policy/tool success and errors, code search/copy, evaluation, calculator, language preservation, skip link and Escape checked | Passed |
-| Published deployment | https://wesleyvieira99.github.io/doordashSafeChat/ — Pages branch build1316563221 succeeded; mobile PT/EN demo and deep-route refresh verified, public assets/catalog checked | Passed via gh-pages branch |
-| GitHub Actions | Run40372386146 did not start: account locked due to billing issue; no CI test result is claimed | Blocked externally; local checks passed |
+| Live browser | Local browser: all 13 sections in PT/EN at 390 px and all 13 in PT at 1440 px, no document overflow; eight moderation scenarios, fallback, capacity overload, policy/tool success and errors, code search/copy, evaluation, calculator, language preservation, skip link and Escape checked | Passed |
+| Published deployment | https://wesleyvieira99.github.io/doordashSafeChat/ — Pages branch build 1316563221 succeeded; mobile PT/EN demo and deep-route refresh verified, public assets/catalog checked | Passed via gh-pages branch |
+| GitHub Actions | Run 40372386146 did not start: account locked due to billing issue; no CI test result is claimed | Blocked externally; local checks passed |
 
 ## Interpretation boundaries / Limites
 
@@ -31,8 +31,8 @@ The [2025 SafeChat article](https://careersatdoordash.com/blog/doordash-safechat
 
 The [current job listing](https://job-boards.greenhouse.io/doordashinternational/jobs/7682119) was readable on the review date. It specifies seven years of software engineering, two years of people management leading five or more engineers, a relevant degree and English fluency. The application states a hybrid arrangement of one or two days weekly at the Paulista Avenue office. The candidate's satisfaction of these requirements is not independently certified by this portal.
 
-See [source registry](sources.md) for all 28 references, absent publication dates and the article/archive date discrepancy; see [official asset provenance](brand-assets.md) for original URLs and hashes. Original article figures were also inspected visually in the browser (sync moderation and voice flows); command-line image download returned403. No source diagrams were copied. Portal diagrams are independently authored and identify implemented/proposed boundaries.
+See [source registry](sources.md) for all 28 references, absent publication dates and the article/archive date discrepancy; see [official asset provenance](brand-assets.md) for original URLs and hashes. Original article figures were also inspected visually in the browser (sync moderation and voice flows); command-line image download returned 403. No source diagrams were copied. Portal diagrams are independently authored and identify implemented/proposed boundaries.
 
 ## Final acceptance to record / Registrar na entrega
 
-Public deployment was checked on2026-10-26. Source commit f5e884a and static branch commit cf2e26e identify the tested implementation and published artifact. Reduced-motion behavior was reviewed in CSS; no system preference or benchmark score is claimed. Final code changes require catalog regeneration and a production build; a checked-in earlier artifact does not verify later edits.
+Public deployment was checked on 2026-10-26. Source commit f5e884a and static branch commit cf2e26e identify the tested implementation and published artifact. Reduced-motion behavior was reviewed in CSS; no system preference or benchmark score is claimed. Final code changes require catalog regeneration and a production build; a checked-in earlier artifact does not verify later edits.
