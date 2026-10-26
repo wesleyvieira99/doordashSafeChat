@@ -781,6 +781,12 @@ function PolicyLab({ lang }: { lang: Locale }) {
             "This lab uses direct retrieval and a small state machine. Retrieval-augmented generation is an optional evolution; LangChain/LangGraph would need composition or state requirements that justify the dependency. MCP standardizes tool access, while authorization and scope remain server responsibilities. None of these technologies grants authority to an LLM.",
           )}
         </p>
+        <a href={`#/${lang}/architecture`}>
+          {t(
+            "Explorar o fluxo proposto de contexto, RAG, parecer e decisão →",
+            "Explore the proposed context, RAG, advice and decision flow →",
+          )}
+        </a>
       </div>
     </>
   );
